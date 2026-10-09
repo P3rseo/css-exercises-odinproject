@@ -16,6 +16,7 @@ body {
   /* Ejercicio 03 */
   padding: 8px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   gap: 16px;
 }
@@ -41,9 +42,6 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
-
-/*  Ejercicio 03 */
-  margin-left: auto;
 }
 
 a {
@@ -54,13 +52,18 @@ a {
 
 ul {
   list-style-type: none;
+
+/*  Ejercicio 03 Solution */
+  display: flex;
+  gap: 16px;
+  margin: 0;
+  padding: 0;
 }
 
 /* Ejercicio 03 */
-
-.links {
+.left, .right {
   display: flex;
+  align-items: center;
   gap: 16px;
-  padding: 0;
 }
 
